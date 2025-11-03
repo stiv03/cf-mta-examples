@@ -38,9 +38,13 @@ modules:
 ```
 ## Hooks and extension descriptor
 You can also extend module hooks through the extension descriptor. To do so, add the code with your specific parameters.
-##### What can be done
-- Parameters section can be modified which includes all properties like name, command, memory and disk quota.
-##### What cannot be done
+
+#####What can be done#####
+
+ - Parameters section can be modified which includes all properties like name, command, memory and disk quota.
+
+#####What cannot be done#####
+
 - Phases of the hooks cannot be modified via extension descriptors
 - Type of the hook cannot be modified
 - Required dependencies cannot be modified
@@ -61,7 +65,7 @@ modules:
 ...
 ```
 
-## Try out
+## Try it out
 
 In the current directory of the repository, run `cf deploy` that will use `mtad.yaml`. This will automatically assemble an MTA archive and deploy it.
 ```bash
